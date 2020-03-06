@@ -1,12 +1,69 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-size: 16px;
+    font-size: 8px;
     /* first font is the primary, second is the fallback */
     font-family:"Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.8em;
     color: #666;
+}
+
+
+.header {
+    overflow: hidden;
+    padding: 8px 8px;
+    color:firebrick;
+    background-color: white;
+    /* sticky header, 100% width, and always on top */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: firebrick;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a:hover {
+    background-color: firebrick;
+    color: white;
+  }
+  
+  .header a.active {
+    background-color: firebrick;
+    color: white;
+  }
+  
+  .header-left {
+      float: left;
+    }
+  
+    .header-left img{
+      height:60px;
+      width: auto;
+      
+    }
+  
+  .header-right {
+      float: right;
+      padding-top: 5px;
+      padding-right: 10px;
+    }
+
+
+.border_heading{
+    font-size: 18px;
+    background-color: #777;
+    padding: 10px;
+    
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -67,11 +124,21 @@ section{
     font-size: 27px;
     letter-spacing: 8px;
     
+    
 }
 
 .ptext .border{
-    background-color: white;
-    color: red;
+    background-color: #777;
+    color: white;
     padding: 20px;
 }
 
+.ptext .border.transparent{
+    background: transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
