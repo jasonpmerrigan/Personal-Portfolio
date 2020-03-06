@@ -27,7 +27,7 @@ body, html{
     color: firebrick;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 25px;
     border-radius: 4px;
   }
@@ -58,13 +58,13 @@ body, html{
       padding-right: 10px;
     }
 
-
 .border_heading{
     font-size: 18px;
     background-color: #777;
     padding: 10px;
-    
 }
+
+
 
 .pimg1, .pimg2, .pimg3{
     position: relative;
@@ -123,8 +123,26 @@ section{
     color: black;
     font-size: 27px;
     letter-spacing: 8px;
+}
+
+.atext{
+    position: absolute;
+    top: 300%;
+    left: 35%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    width: 30%;
+    line-height: 30px;
+}
+
+.about_text{
     
-    
+    color:black;
+    background-color: bisque;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 5px;
 }
 
 .ptext .border{
