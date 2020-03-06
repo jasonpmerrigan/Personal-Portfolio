@@ -101,7 +101,7 @@ section{
     50px top and bottom 
     80px left and right 
     */
-    padding:50px 80px;
+    padding:30px 80px;
 
 }
 
@@ -154,6 +154,18 @@ section{
 .ptext .border.transparent{
     background: transparent;
 }
+
+.projects-container{
+    width: 80%;
+    margin: auto;
+    
+}
+.proj_gallery
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 70px;
+  padding-top: 50px;
 
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
