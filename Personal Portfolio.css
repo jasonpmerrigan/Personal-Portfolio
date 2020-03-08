@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-size: 8px;
+    font-size: 16px;
     /* first font is the primary, second is the fallback */
     font-family:"Lato", sans-serif;
     font-weight: 300;
@@ -27,7 +27,7 @@ body, html{
     color: firebrick;
     padding: 12px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 25px;
     border-radius: 4px;
   }
@@ -155,17 +155,60 @@ section{
     background: transparent;
 }
 
-.projects-container{
-    width: 80%;
-    margin: auto;
-    
-}
-.proj_gallery
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  padding-left: 70px;
-  padding-top: 50px;
+.projects-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-column-gap: 1em;
+    grid-row-gap: 1em; */
+    grid-gap: 3em;
+    padding: 2em;
+    height: 40em;
+    color: white;
+    }
+  .projects-wrapper > div{
+    background-color: grey;
+    padding: 1em;
+  }
+
+  .projects-wrapper > div:nth-child(odd){
+    background-color: green;
+  }
+
+  .box1{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
+
+  .box2{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
+
+  .box3{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
+
+  .box4{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
+
+  .box5{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
+
+  .box6{
+    background-image:url(../Images/img1.jpg);
+    background-size: 100%;
+
+  }
 
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
