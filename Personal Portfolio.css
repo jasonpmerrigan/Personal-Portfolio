@@ -119,7 +119,6 @@ section{
     color: #ddd;
 }
 
-/* START OF CATS */
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -148,8 +147,6 @@ section{
     color: red;
     font-size: 12px;
   }
-  
-  /* END OF CATS */
 
 .ptext{
     position: absolute;
