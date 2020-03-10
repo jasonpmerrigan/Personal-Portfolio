@@ -139,12 +139,16 @@ section{
     height: 200px;
     width: 100%;
   }
+
+  .fa{
+      font-size: 48px;
+  }
   
   .article-title {
     position: absolute;
     width: 100%;
     background-color: rgba(255, 255, 255);
-    color: red;
+    color: firebrick;
     font-size: 12px;
   }
 
@@ -193,13 +197,14 @@ section{
     .pimg2{
         height: 120%;
      }
+
+     article {
+        position: relative;
+    
+      }
 }
   
 @media (max-width: 700px) {
-    .leading {
-       display: flex;
-       align-items: center;
-     }
 
      .cards{
         grid-gap:8em;
@@ -208,6 +213,17 @@ section{
      .pimg2{
         height: 280%;
      }
+
+     .article-img {
+        height: 200px;
+        width: 60%;
+      }
+
+      /* centering a % based div */
+      .article-title{
+        width: 50%;
+        margin-left: 25%;
+      }
    }
 
 
@@ -215,4 +231,15 @@ section{
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
+
+
+    .article-img {
+        height: 200px;
+        width: 100%;
+      }
+
+      .pimg2{
+        height: 290%;
+      }
+
 }
