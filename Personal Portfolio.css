@@ -188,6 +188,12 @@ section{
     background: transparent;
 }
 
+
+@media (max-width: 920px) {
+    .pimg2{
+        height: 120%;
+     }
+}
   
 @media (max-width: 700px) {
     .leading {
@@ -196,11 +202,11 @@ section{
      }
 
      .cards{
-        grid-gap:5em;
+        grid-gap:8em;
      }
 
      .pimg2{
-        height: 120%;
+        height: 280%;
      }
    }
 
