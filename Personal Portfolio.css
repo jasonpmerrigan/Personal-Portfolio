@@ -122,7 +122,7 @@ section{
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 100px;
     max-width: 960px;
     margin: 0 auto;
   }
@@ -189,6 +189,15 @@ section{
 }
 
 
+@media (max-width: 1020px) {
+
+  .pimg2{
+    height: 120%;
+ }
+}
+
+
+
 @media (max-width: 920px) {
     .pimg2{
         height: 120%;
@@ -207,7 +216,7 @@ section{
      }
 
      .pimg2{
-        height: 280%;
+        height: 250%;
      }
 
      .article-img {
