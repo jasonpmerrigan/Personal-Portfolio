@@ -65,7 +65,7 @@ body, html{
 
 .border_heading{
     font-size: 18px;
-    background-color: #777;
+    background-color: whitesmoke;
     padding: 10px;
 }
 
@@ -176,7 +176,7 @@ section{
 .about_text{
     
     color:black;
-    background-color: bisque;
+    background-color: whitesmoke;
     font-size: 20px;
     letter-spacing: 2px;
     padding: 5px;
