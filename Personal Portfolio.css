@@ -178,7 +178,6 @@ section{
 }
 
 .about_text{
-    
     color:black;
     background-color: whitesmoke;
     font-size: 20px;
@@ -215,14 +214,6 @@ section{
 .fa-github:hover{
   opacity: 0.5;
 }
-
-
-
-
-@media (max-width: 1020px) {
-
-}
-
 
 
 @media (max-width: 920px) {
@@ -262,6 +253,5 @@ section{
         height: 200px;
         width: 100%;
       }
-
 
 }
