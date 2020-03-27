@@ -69,6 +69,12 @@ body, html{
     padding: 10px;
 }
 
+.contact_border_heading{
+  font-size: 18px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
 
 
 .pimg1, .pimg2, .pimg3{
@@ -91,7 +97,7 @@ body, html{
 
 .pimg2{
     background-image:url(../Images/img2.jpg);
-    min-height: 80%;
+    min-height: 100%;
 }
 
 .pimg3{
@@ -125,6 +131,7 @@ section{
     grid-gap: 100px;
     max-width: 960px;
     margin: 0 auto;
+    padding-top: 100px;
   }
   
   article {
@@ -187,6 +194,24 @@ section{
 .ptext .border.transparent{
     background: transparent;
 }
+
+.social_media_footer{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  cursor: pointer;
+  /* center multiple divs in a div
+  start */
+  display: flex;
+  justify-content: center;
+  /* end */
+}
+
+.fa-twitter:hover{
+  opacity: 0.5;
+}
+
+
 
 
 @media (max-width: 1020px) {
